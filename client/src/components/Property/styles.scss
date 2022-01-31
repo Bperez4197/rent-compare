@@ -1,0 +1,28 @@
+.house-card {
+  height: 100%;
+  width: 100%;
+  margin-top: 10px;
+  border: 1px solid black;
+  padding-left: 0px;
+  padding-right: 0px;
+
+  img {
+    height: 250px;
+    width: 100%;
+  }
+
+  .house-info {
+    padding: 5px;
+
+    .content {
+      display: flex;
+      flex-direction: row;
+      .info {
+        width: 50%;
+      }
+      .money {
+        width: 50%;
+      }
+    }
+  }
+}

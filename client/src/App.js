@@ -8,8 +8,10 @@ function App() {
     <div>
       <header>Rent Compare</header>
       <Search />
-      <Traditional />
-      <Airbnb />
+      <div className="houses">
+        <Traditional />
+        <Airbnb />
+      </div>
       <footer>This site was created and is maintained by Bryce Perez</footer>
     </div>
   );

@@ -1,0 +1,13 @@
+#airbnb-houses {
+  height: 100%;
+  width: 35vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+  h2 {
+    margin: 0 auto;
+    text-decoration: underline;
+  }
+}
