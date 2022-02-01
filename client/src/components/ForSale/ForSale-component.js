@@ -3,10 +3,10 @@ import Property from "../Property/Property";
 
 import "./styles.scss";
 
-export default function TraditionalComponent() {
+export default function ForSaleComponent() {
   return (
-    <div id="traditional-houses">
-      <h2>Traditonal</h2>
+    <div id="forsale-houses">
+      <h2>For Sale</h2>
       <Property />
       <Property />
       <Property />

@@ -73,29 +73,56 @@ export default function Search() {
       {/* Square Footage Label and Input ///////////////////////////////////////////////////////////////////// */}
       <div>
         <label for="sqft">Sqft: </label>
-        <input type="text" name="sqft" id="sqft" placeholder="Square Footage" />
+        <select name="sqft" id="sqft">
+          <option value="any" selected disabled invisible>
+            Any
+          </option>
+          <option value="750+">750+</option>
+          <option value="1000+">1000+</option>
+          <option value="1250+">1250+</option>
+          <option value="1500+">1500+</option>
+          <option value="1750+">1750+</option>
+          <option value="2000+">2000+</option>
+          <option value="2250+">2250+</option>
+          <option value="2500+">2500+</option>
+          <option value="2750+">2750+</option>
+          <option value="3000+">3000+</option>
+          <option value="3250+">3250+</option>
+          <option value="3500+">3500+</option>
+          <option value="3750+">3750+</option>
+          <option value="5000+">5000+</option>
+          <option value="7500+">7500+</option>
+        </select>
       </div>
 
       {/* Bedroom Label and Input ///////////////////////////////////////////////////////////////////// */}
       <div>
         <label for="bedrooms">Bedrooms: </label>
-        <input
-          type="text"
-          name="bedrooms"
-          id="bedrooms"
-          placeholder="Number of Bedrooms"
-        />
+        <select name="bedrooms" id="bedrooms">
+          <option value="any" selected disabled invisible>
+            Any
+          </option>
+          <option value="1+">1+</option>
+          <option value="2+">2+</option>
+          <option value="3+">3+</option>
+          <option value="4+">4+</option>
+          <option value="5+">5+</option>
+        </select>
       </div>
 
       {/* Bathroom Label and Input ///////////////////////////////////////////////////////////////////// */}
       <div>
         <label for="bathrooms">Bathrooms: </label>
-        <input
-          type="text"
-          name="bathrooms"
-          id="bathrooms"
-          placeholder="Number of Bathrooms"
-        />
+        <select name="bathrooms" id="bathrooms">
+          <option value="any" selected disabled invisible>
+            Any
+          </option>
+          <option value="1+">1+</option>
+          <option value="2+">2+</option>
+          <option value="3+">3+</option>
+          <option value="4+">4+</option>
+          <option value="5+">5+</option>
+        </select>
       </div>
     </div>
   );

@@ -1,6 +1,6 @@
 import "./App.css";
-import Airbnb from "./components/Airbnb/Airbnb-component";
-import Traditional from "./components/Traditional/Traditional-component";
+import ForSale from "./components/ForSale/ForSale-component";
+import ForRent from "./components/ForRent/ForRent-component";
 import Search from "./components/Search/Search";
 
 function App() {
@@ -9,8 +9,8 @@ function App() {
       <header>Rent Compare</header>
       <Search />
       <div className="houses">
-        <Traditional />
-        <Airbnb />
+        <ForSale />
+        <ForRent />
       </div>
       <footer>This site was created and is maintained by Bryce Perez</footer>
     </div>

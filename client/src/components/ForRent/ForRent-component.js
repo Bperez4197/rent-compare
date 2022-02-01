@@ -3,10 +3,10 @@ import Property from "../Property/Property";
 
 import "./styles.scss";
 
-export default function AirbnbComponent() {
+export default function ForRentComponent() {
   return (
-    <div id="airbnb-houses">
-      <h2>Airbnb</h2>
+    <div id="forrent-houses">
+      <h2>For Rent</h2>
       <Property />
       <Property />
       <Property />
